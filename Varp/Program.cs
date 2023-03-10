@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        int N = 10; // Set N to the desired value
+        int N = 10; 
         int sum = 0;
 
         for (int i = 1; i <= N; i++)
@@ -23,6 +23,6 @@ class Program
         int lhs = sum;
         int rhs = 2 * ((N * (N + 1) / 2) * (N * (N + 1) / 2));
 
-        Console.WriteLine(lhs == rhs); // Output true if the condition is satisfied
+        Console.WriteLine(lhs == rhs); 
     }
 }
