@@ -20,9 +20,4 @@ class Program
             sum += term1 + term2;
         }
 
-        int lhs = sum;
-        int rhs = 2 * ((N * (N + 1) / 2) * (N * (N + 1) / 2));
-
-        Console.WriteLine(lhs == rhs); 
-    }
-}
+        
